@@ -1,3 +1,8 @@
+## Notes: 
+## The algorithm is log(N). It is applied to a ascending array of elements.
+## First you find the middle elements to be the pivot, compare the pivot 
+## to the target and adjust your left and right bar.
+
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         left, right = 0, len(nums) - 1
